@@ -98,6 +98,6 @@ function reiniciarJogo() {
   const numeros = document.querySelectorAll('#gridNumeros div');
   numeros.forEach((numeroElemento) => {
     numeroElemento.addEventListener('click', lidarPalpite);
-    numeroElemento.className = 'rounded-lg text-center h-8 w-8 my-3 bg-white hover:bg-red-500';
+    numeroElemento.className = 'rounded-lg text-center h-8 w-8 my-3 bg-white';
   });
 }
