@@ -8,9 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (let i = 1; i <= 100; i++) {
     const numero = document.createElement('div');
-    numero.className = 'rounded-lg text-center h-8 w-8 my-3 bg-white hover:bg-red-500';
+    numero.className = 'rounded-lg text-center h-8 w-8 my-3 bg-white';
     numero.innerText = i;
-    numero.id = i;
     numero.addEventListener('click', lidarPalpite);
     gridNumeros.appendChild(numero);
   }
