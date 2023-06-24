@@ -1,0 +1,24 @@
+#titleh1{
+  text-shadow: 
+  -1px -1px 1px black, 
+  -1px 1px 1px black,      
+   1px -1px 1px black,    
+   4px 4px 1px black;
+}
+
+body{
+  height: 100vh;
+  background-color:#FFB945;
+  background-image: url("./assets/bg-pc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+@media only screen and (max-width: 700px) {
+  body{
+    background-image: url("./assets/bg-mobile.png");
+  }
+}
